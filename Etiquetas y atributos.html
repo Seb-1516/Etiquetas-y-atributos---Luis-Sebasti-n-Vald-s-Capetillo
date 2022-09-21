@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas y Atributos</title>
+</head>
+<body bgcolor="B16FFF">
+    <h1 alig="justify"><font face="verdana">Etiquetas y Atributos</font></h1>
+    <p><font face="verdana"><b>Nombre: </b>Luis Sebastián Valdés Capetillo</font></p>
+    <p><font face="verdana"><b>Expediente: </b> 301610</font></p>
+    <p><font face="verdana"><b>Grupo: </b>32</font></p>
+    <p><font face="verdana"><b>Maestra: </b> María Fernanda Juarez Tirado</font></p>
+    <br>
+    <p><font face="verdana"><h3>Etiquetas para estructurar:</h3></font></p>
+    <p><font face="verdana">Para este tipo de etiquetas como lo son nav, section, etc. No existen atributos especiales al igual que para las etiquetas de semántica. Sólo existen atributos globales 
+        los atributos globales son los siguientes, estos atributos son globales ya que como su nombre lo inidca, se utilizan en distintas etiquetas de diferentes categorías
+        <ol start="1">
+            <li>title</li>
+            <li>id</li>
+            <li>class</li>
+            <li>style</li>
+            <li>lang</li>
+            <li>dir</li>
+        </ol>
+    </font>
+    </p>
+
+
+    <p alig="justify"><font face="verdana"><h3>Etiquetas para agrupación:</h3></font></p>
+    <p alig="justify"><font face="verdana"><b>Para la etiqueta ol tenemos los siguientes atributos:</b> <br><br>reversed: con este atributo podemos modificar el comportamiento estándar de una lista ordenada haciendo que se vea listada en orden descendente en lugar de ascendente</font></p>
+    <p alig="justify"><font face="verdana">start: Define el número inicial de la lista ordenada (si es diferente a 1).</font> </p>
+    <p alig="justify"><font face="verdana">Ejemplo de atributo reversed</font></p>
+    <ol reversed="1">
+        <li>Sebas</li>
+        <li>Carlos</li>
+        <li>Merari</li>
+    </ol>
+
+    <p alig="justify"><font face="verdana">Ejemplo de atributo start</font></p>
+    <ol start="2">
+        <li>Sebas</li>
+        <li>Carlos</li>
+        <li>Merari</li>
+    </ol>
+    <p alig="justify">
+        <font face="verdana"><b>Para la etiqueta ul tenemos los siguientes atributos:</b><br><br>
+            type: Indica el estilo de los items de la lista<br>
+            compact: Indica que la lista debe mostrarse compacta
+            <br><br>
+            Ejemplo del atributo type:<br>
+            <ul type="square">
+                <li>Info</li>
+                <li>Medicina</li>
+                <li>Ingeniería</li>
+            </ul>
+            <br><br> 
+            Ejemplo del atributo compact<br>
+            <ul compact="compact">
+                <li>Info</li>
+                <li>Medicina</li>
+                <li>Ingeniería</li>
+            </ul>
+
+        </font>
+    </p>
+    <br><br><br><br>
+
+    <p><font face="verdana"><h3>Etiquetas semánticas:</h3></font></p>
+    <p alig="justify">
+        <font face="verdana">
+            <b>Esto es escrito con la etiqueta b, no existen atributos especiales, sólo los atributos genéricos</b><br>
+            <strong>Esto es escrito con la etiqueta strong, no existen atributos especiales, sólo los atributos genéricos</strong>
+        </font>
+    </p>
+
+
+
+
+
+    <br><br><br><br>
+    <p><font face="verdana"><h3>Etiquetas para incrustar contenido:</h3></font></p>
+    <p alig="justify">
+        <font face="verdana">
+            <b>Para la etiqueta img tenemos los siguientes atributos:</b><br><br>
+            alig: Especifica el alineamiento horizontal del elemento<br><br>
+            alt: Texto alternativo que se  mostrará en el navegador en caso de que la imagen no se pueda mostrar<br><br>
+            border: Permite definir el borde de un elemento HTML<br><br>
+            height: Permite especificar la altura de los elementos HTML indicados <br><br>
+            src: La URL del contenido integrable en la etiqueta HTML que lo acompaña <br><br>
+            srcset: Define diferentes versiones de la imagen para mostrar una u otra según el tipo de pantalla <br><br>
+            usemap: Indica la URL parcial de un image map asociado con el elemento <br><br>
+            width: Para los elementos enumerados aquí, establece el ancho del elemento <br><br>
+            Ejemplo en el cuál se incluyen los siguientes atributos:<br>
+            align,border,height,src y width<br>
+            ejemplo: <br>
+            <img alig="center" src="img/zorro.png" height="200" width="200" border ismap>
+            <br><br>
+            Ejemplo de alt:<br>
+            <img src="" alt="Imagen no disponible"><br><br>
+            Los atributos de map, son funcionales si el elemento con la etiqueta de imagen es descendiente de un elemento de la etiqueta < a > con un atributo href válido.
+            <br><br><br>
+            <b>Para la etiqueta iframe tenemos los siguientes atributos:</b><br><br>
+            src: La URL de la página a insertar <br><br>
+            width: Indica el ancho del marco donde se va mostrar la página web externa <br><br>
+            height: Indica la altura del marco donde se va a mostrar la página web externa <br><br>
+            allowfullscreen: Atributo tipo booleano. Activa de ser posible, el modo pantalla completa <br><br>
+            id: identificador de iframe para usarse en código de JavaScript <br><br>
+            name: define el nombre objetivo para el iframe con el fin de ser fácilmente reconocbile, usado desde JavaScript <br><br>
+            scrolling: permite la inserción de barras de desplazamiento dentro del iframe. Se puede definir de 3 formas: Yes/no/Auto <br><br>
+            Ejemplo de algunos atributos aplicados (no se aplicaron todos, ya que algunos se activan al utilizar JavaScript) <br><br>
+
+            <iframe src="https://htmlcolorcodes.com/es/" scrolling="yes" width="700" height="300" ></iframe>
+        </font>
+    </p>
+    <br><br><br><br>
+
+
+    <p><font face="verdana"><h3>Etiquetas para tablas:</h3></font></p>
+    <p alig="justify">
+        <font face="verdana">
+            <b>Para la etiqueta Table tenemos los siguientes atributos:</b><br><br>
+            alig: Especifica el alineamiento horizontal del elemento <br><br>
+            bgcolor: Permite añadir un color de fondo al elemento HTML <br><br>
+            border: Permite definir un borde al elemento HTML <br><br>
+
+            Ejemplo en el cuál se ven aplicados todos los atributos: <br><br>
+            <table alig="center" bgcolor="F9F66A" border="1">
+                <tr>
+                    <th>exp</th>
+                    <th>name</th>
+                    <th>age</th>
+                </tr>
+                <tr>
+                    <td>1234</td>
+                    <td>Rosalía</td>
+                    <td>20</td>
+                </tr>
+            </table>
+            <br><br><br>
+            <b> Para la etiqueta tr tenemos los siguientes atributos:</b><br><br>
+            bgcolor: Permite añadir un color de fondo al elemento HTML<br><br>
+            alig: Especifica el alineamiento horizontal del elemento <br><br>
+            Ejemplo en el cuál se ven aplicados todos los atributos: <br><br>
+            <table alig="center" border="1">
+                <tr alig="center" bgcolor="F84A18">
+                    <th>exp</th>
+                    <th>name</th>
+                    <th>age</th>
+                </tr>
+                <tr alig="center" bgcolor="E36D4B">
+                    <td>1234</td>
+                    <td>The weeknd</td>
+                    <td>20</td>
+                </tr>
+            </table>
+        </font>
+    </p>
+
+
+
+
+
+    <p><font face="verdana"><h3>Etiquetas para formularios:</h3></font></p>
+    <p alig="justify">
+        <font face="verdana">
+            <b>Para la etiqueta option tenemos los siguientes atributos:</b><br><br>
+            disabled: Permite que un elemento HTML esté dehabilitadoy el usuario no pueda interactual con el <br><br>
+            selected: define un valor que aparecerá por defecto seleccionado al cargar la página <br><br>
+            value: Define el valor predeterminado a ser mostrado al cargar la página <br><br>
+
+            Ejemplo en el cuál se ven aplicados todos los atributos: <br><br>
+            <div>
+                <select>
+                <optgroup label="Lenguajes de programación">
+                <option disabled>C#</option>
+                <option>Python</option>
+                <option selected>C++</option>
+                <option value="Opciones">Java</option>
+                </optgroup>
+                </select>
+            </div>
+
+           <b>Para la etiqueta button tenemos los siguientes:</b><br><br>
+            disabled: Permite que un elemento HTML esté deshabilitado y el usuario no pueda interactuar con el <br><br>
+            type: Define el tipo de elemento HTML. <br><br>
+            name: Nombre del elemento. Utilizado a menudo por el servidor para identificar los campos en el envío de formularios <br><br>
+
+            <b>Ejemplo para disabled:</b><br><br>
+            <button disabled>Este botón se encuentra dehabilitado</button><br><br>
+            <b>Ejemplo para type y name:</b><br><br>
+            <button type="button" name="New Button">NB</button>
+
+        </font>
+    </p>
+</body>
+</html>
